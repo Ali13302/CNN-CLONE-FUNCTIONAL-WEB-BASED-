@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daily Wire News | Latest and Breaking News</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/data.js" defer></script>
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Daily Wire News homepage">
+        <span class="brand-mark">DW</span>
+        <span>Daily Wire News</span>
+      </a>
+      <nav class="main-nav" aria-label="News categories" id="category-nav"></nav>
+    </header>
+
+    <main>
+      <section class="breaking-strip" aria-label="Breaking news">
+        <strong>Breaking</strong>
+        <span id="breaking-headline"></span>
+      </section>
+
+      <section class="hero-layout" aria-labelledby="featured-heading">
+        <div class="featured-story" id="featured-story"></div>
+        <aside class="latest-panel" aria-labelledby="latest-heading">
+          <div class="section-kicker">Live Desk</div>
+          <h2 id="latest-heading">Latest Updates</h2>
+          <div id="latest-list" class="latest-list"></div>
+        </aside>
+      </section>
+
+      <section class="content-band" aria-labelledby="categories-heading">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">Browse</div>
+            <h2 id="categories-heading">Top Categories</h2>
+          </div>
+        </div>
+        <div class="category-grid" id="category-grid"></div>
+      </section>
+
+      <section class="content-band" aria-labelledby="more-news-heading">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">Newsroom</div>
+            <h2 id="more-news-heading">More Stories</h2>
+          </div>
+        </div>
+        <div class="article-grid" id="article-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Mock news app for browsing headlines, categories, and article pages.</p>
+    </footer>
+  </body>
+</html>

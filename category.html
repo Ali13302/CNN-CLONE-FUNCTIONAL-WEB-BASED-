@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daily Wire News | Category</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/data.js" defer></script>
+    <script src="js/category.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Daily Wire News homepage">
+        <span class="brand-mark">DW</span>
+        <span>Daily Wire News</span>
+      </a>
+      <nav class="main-nav" aria-label="News categories" id="category-nav"></nav>
+    </header>
+
+    <main>
+      <section class="page-title">
+        <div class="section-kicker">Category</div>
+        <h1 id="category-title">News</h1>
+        <p id="category-description"></p>
+      </section>
+
+      <section class="content-band" aria-labelledby="category-news-heading">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">Latest</div>
+            <h2 id="category-news-heading">Top Stories</h2>
+          </div>
+          <a class="text-link" href="index.html">Back to homepage</a>
+        </div>
+        <div class="article-grid" id="category-articles"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Mock news app for browsing headlines, categories, and article pages.</p>
+    </footer>
+  </body>
+</html>
